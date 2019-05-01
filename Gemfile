@@ -13,6 +13,10 @@ gem 'rails', '~> 5.2.3'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+# Handle JWT with auth0
+gem 'knock', '~> 2.0'
+# To perform http requests.
+gem 'http'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
